@@ -5,12 +5,14 @@ on: [push, pull_request]
 jobs:
   build:
     name: lint text
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          # node-version: "16"
+          node-version-file: "package.json"
+          cache: "npm"
       - run: npm install
       - name: lint text
         run: npm run lint

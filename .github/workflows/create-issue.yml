@@ -2,12 +2,15 @@ name: create issue
 
 on:
   schedule:
-    - cron:  '0 0 1 */3 *'
+    # 左から分・時・日・月・年を表す
+    # */3は3ヶ月に一回処理を繰り返す
+    # 下の場合は3ヶ月ごとに月初に実行
+    - cron: "0 0 1 */3 *"
 
 jobs:
   build:
     name: create issue
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: JasonEtco/create-an-issue@v2
