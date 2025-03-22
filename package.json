@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "resume template",
   "scripts": {
-    "lint": "textlint docs/README.md",
+    "lint": "textlint docs/**/*.md",
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "keywords": [],
   "devDependencies": {
@@ -38,7 +38,7 @@
   },
   "lint-staged": {
     "docs/**/*.md": [
-      "textlint --fix"
+      "textlint"
     ]
   }
 }

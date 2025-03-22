@@ -11,9 +11,7 @@
       "max-ten": {
         "max": 3
       },
-      "max-kanji-continuous-len": {
-        "max": 6
-      },
+      "max-kanji-continuous-len": false,
       "arabic-kanji-numbers": true,
       "no-mix-dearu-desumasu": {
         "preferInHeader": "",
