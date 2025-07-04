@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "v*"
+  workflow_dispatch: # 手動で実行できるようにする
 
 jobs:
   build:
@@ -11,12 +12,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
           # node-version: "16"
           node-version-file: "package.json"
           cache: "npm"
-      - run: npm install
+      # - run: npm install
+      - name: Install dependencies
+        run: npm install --frozen-lockfile
       - name: build pdf
         run: npm run build:pdf
       - name: create release
