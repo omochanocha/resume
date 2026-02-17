@@ -11,7 +11,7 @@ h1:first-child {
   text-align: center;
 }
 
-p:first-of-type {
+h1 + p {
   text-align: right;
 }
 
