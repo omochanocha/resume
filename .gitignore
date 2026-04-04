@@ -2,3 +2,5 @@ node_modules
 .DS_Store
 **/*.pdf
 .vscode/*
+docs/*.md
+!docs/README.md
