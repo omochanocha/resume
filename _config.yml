@@ -1,0 +1,10 @@
+# _config.yml  (repo root)
+source: docs
+destination: ./_site
+
+exclude:
+  - jekyll-build-pages
+
+# もともと docs/_config.yml に書いていた設定があるなら
+# theme, title, plugins などもこちらへ移してください
+theme: jekyll-theme-cayman
