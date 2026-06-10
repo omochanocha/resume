@@ -5,7 +5,6 @@ module.exports = {
     headerIds: false,
     smartypants: true,
   },
-  dest: "./職務経歴書.pdf",
   pdf_options: {
     "format": "A4",
     "margin": "20mm 20mm",
