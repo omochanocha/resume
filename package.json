@@ -4,10 +4,10 @@
   "description": "resume template",
   "scripts": {
     "lint": "textlint docs/**/README.md",
-    "build:resume": "md-to-pdf docs/履歴書.md --config-file ./pdf-configs/config.js",
-    "build:cv": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
+    "build:resume": "md-to-pdf docs/履歴書.md --config-file ./pdf-configs/config.resume.js",
+    "build:cv": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.cv.js",
     "build:all": "npm run build:resume && npm run build:cv",
-    "build:html": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js --as-html",
+    "build:html": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.html.js --as-html",
     "prepare": "husky install"
   },
   "keywords": [],
