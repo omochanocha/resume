@@ -105,15 +105,17 @@ Page Speed Insightsのスコアが低下しており、改善依頼があった�
 評価機能の実装にあたって将来記事数が増えてもパフォーマンスを損ねない実装（DBの非正規化）をした。
 
 ■ **運用を見据えた実装**\
-評価ボタン（「読みやすい」「分かりやすい」など）の実装にあたり、将来的に評価軸が追加された際に、評価ボタンの設置漏れやタイポをTypeScriptで検知できるよう型設計を行った
+評価ボタン（「読みやすい」「分かりやすい」など）の実装にあたり、将来的に評価軸が追加された際に、評価ボタンの設置漏れやタイポをコンパイル時に検知できるような型設計（網羅性チェック）を行った
 
 ■ **チーム全体の生産性向上**
 
-- リンターとフォーマッターをコミット前に自動実行させコードの品質を担保した
+- リンターとフォーマッターをコミット前に自動実行させるlefthookを導入し、コードの品質を担保した
 - レビュアがレビューしやすいPRにするため、機能の仕様やコードの意図を記載した
 - デプロイ方法をドキュメント化し、誰でもデプロイできるようにした
 
 ---
+
+<div style="page-break-before:always"></div>
 
 ### アドベントカレンダーでの技術記事執筆
 
@@ -155,6 +157,8 @@ microCMSを用いて新着順やカテゴリー別に見れるブログサイト
 #### 使用技術・ツール
 
 - Next.js(App Router), React, TypeScript, TailwindCSS, microCMS, shadcn, highlight.js, ESLint, Prettier, simple-Git-hooks, lint-staged, Git/Github, Vercel
+
+<div style="page-break-before:always"></div>
 
 ### - GrADS Syntax Highlight（VSCode拡張）開発
 

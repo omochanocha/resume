@@ -4,3 +4,9 @@ node_modules
 .vscode/*
 docs/*.md
 !docs/README.md
+**/*.jpg
+**/*.JPG
+**/*.jpeg
+**/*.JPEG
+**/*.png
+**/*.PNG
