@@ -13,7 +13,7 @@ h1:first-child {
 
 h1 + p {
   text-align: right;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 
 table {
