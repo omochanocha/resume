@@ -24,6 +24,8 @@
 - **積極的な越境**：課題を解決するためには自分の領域外のことであっても周囲に助けを求めながら完遂できる。バックエンドの修正や画像の修正の経験があり、職種の垣根を超えてプロジェクトを前に進めることができる
 - **チームメンバーへのサポート**： ドキュメント作成や新メンバーの環境構築、ツールの使い方、コーディングに不慣れなメンバーへのサポートを積極的に行い、チームへ貢献した
 
+<div style="page-break-before:always"></div>
+
 ## 株式会社メンバーズ（2022/04 - 現在）
 
 ### アーティストのファンクラブ・特設サイト開発
@@ -118,8 +120,6 @@ PV数の改善にはページスピードの改善の方がより効果がある
 
 ---
 
-<div style="page-break-before:always"></div>
-
 ### アドベントカレンダーでの技術記事執筆
 
 TypeScriptで組み込みユーティリティ型やライブラリの型を使う際、型情報が途中で止まり可読性が落ちる課題を解決した。inferを使ったConditional TypesとMapped/Indexed Access TypesでIdentifyを解説し、ネストしたオブジェクトまで展開するNestedIdentifyを設計・実装。microCMS等のAPIレスポンス型の確認・デバッグを効率化した。\
@@ -127,7 +127,7 @@ TypeScriptで組み込みユーティリティ型やライブラリの型を使�
 
 ## 個人開発
 
-github: <https://github.com/omochanocha>
+Github: <https://github.com/omochanocha>
 
 ### - Twitch Sort Follow
 
@@ -160,8 +160,6 @@ microCMSを用いて新着順やカテゴリー別に見れるブログサイト
 #### 使用技術・ツール
 
 - Next.js(App Router), React, TypeScript, TailwindCSS, microCMS, shadcn, highlight.js, ESLint, Prettier, simple-Git-hooks, lint-staged, Git/Github, Vercel
-
-<div style="page-break-before:always"></div>
 
 ### - GrADS Syntax Highlight（VSCode拡張）開発
 
