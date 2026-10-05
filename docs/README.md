@@ -35,7 +35,7 @@
 
 チーム開発：ディレクター1名、エンジニア3名、デザイナー4名
 
-使用技術・ツール：HTML, CSS(Sass), JavaScript, 顧客独自CMS, Git/Github, Figma
+使用技術・ツール：HTML, CSS(Sass), JavaScript, 顧客独自CMS, Git/GitHub, Figma
 
 #### 【主な取り組み】
 
@@ -58,7 +58,7 @@
 
 チーム開発：エンジニア5名
 
-使用技術・ツール：React, TypeScript, styled-components, Vitest, Docker, ESLint, Prettier, Git/Github, Figma
+使用技術・ツール：React, TypeScript, styled-components, Vitest, Docker, ESLint, Prettier, Git/GitHub, Figma
 
 #### 【主な取り組みと成果】
 
@@ -75,7 +75,7 @@
 
 チーム開発：デザイナー1名、フロントエンド1名、ディレクター1名
 
-使用技術・ツール：HTML, CSS(Sass), JavaScript( jQuery ), Figma, Git/Github
+使用技術・ツール：HTML, CSS(Sass), JavaScript( jQuery ), Figma, Git/GitHub
 
 #### 【主な取り組みと成果】
 
@@ -129,7 +129,7 @@ TypeScriptで組み込みユーティリティ型やライブラリの型を使�
 
 ## 個人開発
 
-Github: <https://github.com/omochanocha>
+GitHub: <https://github.com/omochanocha>
 
 ### - Twitch Sort Follow
 
@@ -145,7 +145,7 @@ Auth.jsを用いてログイン認証を実装し、認証ユーザーがフォ�
 
 #### 使用技術・ツール
 
-- Next.js(App Router), React, TypeScript, TailwindCSS, Auth.js, zod, shadcn, ESLint, Prettier, husky, lint-staged, Git/Github, Vercel
+- Next.js(App Router), React, TypeScript, TailwindCSS, Auth.js, Zod, Shadcn, ESLint, Prettier, husky, lint-staged, Git/GitHub, Vercel
 
 ### - ブログサイト構築
 
@@ -161,7 +161,7 @@ microCMSを用いて新着順やカテゴリー別に見れるブログサイト
 
 #### 使用技術・ツール
 
-- Next.js(App Router), React, TypeScript, TailwindCSS, microCMS, shadcn, highlight.js, ESLint, Prettier, simple-Git-hooks, lint-staged, Git/Github, Vercel
+- Next.js(App Router), React, TypeScript, TailwindCSS, microCMS, Shadcn, highlight.js, ESLint, Prettier, simple-Git-hooks, lint-staged, Git/GitHub, Vercel
 
 ### - GrADS Syntax Highlight（VSCode拡張）開発
 
